@@ -1,0 +1,22 @@
+.hero {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    max-width: 1600px;
+    height: 600px;
+    background-image: url(../images/imghero.jpg);
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+  }
+
+  .hero {
+    text-align: center;
+
+  }

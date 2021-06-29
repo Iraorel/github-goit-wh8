@@ -1,0 +1,41 @@
+.clients__grup {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 170px;
+    height: 92px;
+    background: var(--dark-bg-text-color);
+    border: 1px solid var(--icon-color);
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-radius: 4px;
+
+
+    @media screen and(min-width:480px){
+      margin-bottom: 30px;
+      
+    }
+ 
+  
+  }
+  
+  .clients:not(:last-child) {
+    margin-right: 30px;
+  }
+  
+  .icon-clients-link {
+    fill: var(--icon-color);
+    -webkit-transition: var(--animation) cubic-bezier(0.4, 0, 0.2, 1);
+    transition: var(--animation) cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .icon-clients-link:hover .icon,
+  .icon-clients-link:focus .icon {
+    stroke: var(--accent-color);
+  }

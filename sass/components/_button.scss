@@ -1,0 +1,54 @@
+.button {
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--dark-bg-text-color);
+    background-color: var(--accent-color);
+    cursor: pointer;
+    border: none;
+    padding: 10px 32px;
+    -webkit-transition: color var(--animation), backgraund-color var(--animation) cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color var(--animation), backgraund-color var(--animation) cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .button-modals {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 8px;
+    margin-left: 490px;
+    margin-right: 8px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+  }
+  
+  .button-portfolio {
+    border: none;
+    min-width: 73px;
+    padding: 6px 22px;
+    cursor: pointer;
+  }
+  .footer.button {
+    width: 200px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+    @media screen  and(min-width:480px){
+      margin-top: 20px;
+    }
+
+    
+    @media screen  and(min-width:1200px){
+      margin-top: -2px;
+    }
+  }
+  

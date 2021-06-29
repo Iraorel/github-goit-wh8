@@ -1,0 +1,80 @@
+.title {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-color);
+    margin-bottom: 50px;
+
+    @media screen  and(min-width:480px){
+    margin-left: auto;
+    margin-right: auto;
+ 
+    }
+
+    @media screen  and(min-width:1200px){
+      
+      
+    }
+  }
+  .page-title {
+    height: 120px;
+    margin: auto;
+ 
+  }
+  .comands-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .page-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--dark-bg-text-color);
+  }
+  
+  .section-title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
+    margin-bottom: 50px;
+
+  }
+  .section-title-comands {
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
+    margin-bottom: 50px;
+
+    @media screen  and(min-width:1200px) {
+      font-size: 36px;
+     
+      
+    }
+    
+  }
+
+  
+  .join-title {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: var(--dark-bg-text-color);
+    margin-bottom: 20px;
+  }

@@ -1,0 +1,23 @@
+
+.contacts-link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .contacts-link .icon {
+    width: 16px;
+    height: 12px;
+    margin-right: 20px;
+    stroke: var(--main-text-color);
+    -webkit-transition: fill var(--animation) cubic-bezier(0.4, 0, 0.2, 1);
+    transition: fill var(--animation) cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .contacts-link:hover .icon,
+  .contacts-link:focus .icon {
+    stroke: var(--accent-color);
+  }

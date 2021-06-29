@@ -1,0 +1,44 @@
+.header {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--title-color);
+  }
+  
+  .header__conteiner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+     height: 80px;
+  }
+  
+  .header__logo {
+    margin-right: 50px;
+  }
+  .header-portfolio {
+    border-bottom: 1px solid var(--main-text-color);
+  }
+  
+  
+ .header__contacts-wrap {
+   
+
+    @media screen and (max-width: 767.98px) {
+      display: block;
+    
+    }
+
+  @media screen  and (min-widht: 1200px){
+    display: flex;
+    
+  }
+    }
