@@ -75,6 +75,18 @@ ul {
   margin-left: auto;
   margin-right: auto;
 }
+@media screen and (min-width: 768px) {
+  .conteiner {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .conteiner {
+    padding-left: 189px;
+    padding-right: 189px;
+  }
+}
 
 .hero-scan {
   display: block;
@@ -85,7 +97,16 @@ ul {
 }
 @media screen and (min-width: 768px) {
   .hero-scan {
-    position: fixed;
+    float: left;
+    margin: 0 1em 1em 0;
+    background-position: 520px 100px;
+    background-size: 241px 172px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .hero-scan {
+    background-position: 720px 10px;
+    background-size: 515px 368px;
   }
 }
 
@@ -96,6 +117,12 @@ ul {
   padding-bottom: 16px;
   line-height: 1.25px;
   color: var(--black-text-color);
+}
+
+@media screen and (min-width: 768px) {
+  .scan-text.centr {
+    width: 480px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -139,9 +166,9 @@ ul {
     width: 514px;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1440px) {
   .scan-text {
-    width: 514px;
+    width: 515px;
   }
 }
 
@@ -156,9 +183,16 @@ ul {
   font-weight: 700;
   line-height: 1.25px;
   text-align: center;
-  margin-top: 20px;
-  margin-bottom: 36px;
+  padding-top: 20px;
+  padding-bottom: 16px;
   color: var(--blue-accent-color);
+}
+@media screen and (min-width: 1440px) {
+  .hero-scan .title {
+    font-size: 34px;
+    text-align: left;
+    padding-bottom: 24px;
+  }
 }
 
 .process-scan .title {
@@ -182,8 +216,16 @@ ul {
     margin-top: 0;
   }
 }
+@media screen and (min-width: 1440px) {
+  .process-scan .title {
+    font-size: 36px;
+    padding-top: 100px;
+    padding-bottom: 52px;
+    margin-top: 0;
+  }
+}
 
-.scanning {
+.scaninng {
   margin-left: 20px;
 }
 
@@ -198,6 +240,12 @@ ul {
   padding-top: 18px;
   right: 20px;
 }
+@media screen and (min-width: 1440px) {
+  .process .title {
+    font-size: 18px;
+    line-height: 1.27;
+  }
+}
 
 .scan-cards {
   display: flex;
@@ -208,15 +256,18 @@ ul {
 
 .process-scan {
   max-width: 320px;
+  margin-bottom: 55px;
 }
 @media screen and (min-width: 768px) {
   .process-scan {
     max-width: 768px;
+    margin-bottom: 52px;
   }
 }
 @media screen and (min-width: 1440px) {
   .process-scan {
     max-width: 1440px;
+    margin-bottom: 100px;
   }
 }
 
@@ -247,6 +298,12 @@ ul {
 .process {
   padding-left: 21px;
 }
+@media screen and (min-width: 1440px) {
+  .process {
+    padding-top: 44px;
+    text-align: center;
+  }
+}
 
 .img-scanning {
   width: 94px;
@@ -268,10 +325,19 @@ ul {
 
 .process-card {
   display: block;
-  width: 133px;
   text-align: center;
   padding-right: 50px;
   margin-top: -200px;
+}
+@media screen and (min-width: 768px) {
+  .process-card {
+    margin-top: 0;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .process-card {
+    justify-content: center;
+  }
 }
 
 .hero__img-scanning {
