@@ -76,6 +76,10 @@ ul {
   margin-right: auto;
 }
 
+.hero-scan {
+  display: block;
+}
+
 .text {
   font-family: var(--main-font);
   font-style: normal;
@@ -99,9 +103,31 @@ ul {
   }
 }
 
-.hero-scan {
+.scan {
+  padding-bottom: 24px;
+}
+
+.text {
   font-family: var(--main-font);
   font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.25px;
+  color: var(--black-text-color);
+}
+
+.scan-text {
+  width: 280px;
+}
+
+.scan-text:not(:last-child) {
+  padding-bottom: 16px;
+}
+
+.hero-scan .title {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-size: 24px;
   font-weight: 700;
   line-height: 1.25px;
   text-align: center;
@@ -110,10 +136,40 @@ ul {
   color: var(--blue-accent-color);
 }
 
+.process-scan .title {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1.27px;
+  text-transform: uppercase;
+  color: var(--blue-accent-color);
+  text-align: left;
+  padding-top: 24px;
+  padding-bottom: 16px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.process .title {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1;
+  text-align: center;
+  color: var(--blue-accent-color);
+  padding-top: 18px;
+  right: 20px;
+}
+
+.scan-cards {
+  padding-bottom: 21px;
+}
+
 .process {
   width: 133px;
   height: 183px;
-  text-align: center;
   background: #ffffff;
   opacity: 0.8;
   box-shadow: inset 1px 1px 16px rgba(203, 203, 203, 0.8), inset -1px -1px 16px #ffffff;
@@ -132,25 +188,31 @@ ul {
   }
 }
 
-.process:not(:last-child) {
+.process {
   padding-left: 21px;
 }
 
 .img-scanning {
   width: 94px;
   height: 82px;
-}
-@media screen and (min-width: 768px) {
-  .img-scanning {
+  padding-top: 14px;
+  /*
+  @media screen and (min-width: 768px) {
     width: 108px;
     height: 95px;
   }
-}
-@media screen and (min-width: 1440px) {
-  .img-scanning {
+
+  @media screen and (min-width: 1440px) {
     width: 177px;
     height: 154px;
-  }
+  }*/
+}
+
+.process-card {
+  display: block;
+  width: 133px;
+  text-align: center;
+  padding-right: 50px;
 }
 
 .hero__img-scanning {
