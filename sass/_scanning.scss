@@ -44,6 +44,12 @@
 }
 .scan-text {
   width: 280px;
+  @media screen and (min-width: 768px) {
+    width: 514px;
+  }
+  @media screen and (min-width: 768px) {
+    width: 514px;
+  }
 }
 .scan-text:not(:last-child) {
   padding-bottom: 16px;
@@ -76,8 +82,15 @@
   padding-bottom: 16px;
   margin-top: 0;
   margin-bottom: 0;
-}
 
+  @media screen and(min-width:768px) {
+    padding-top: 52px;
+    padding-bottom: 24px;
+  }
+}
+.scanning {
+  margin-left: 20px;
+}
 .process .title {
   font-family: var(--main-font);
   font-style: normal;
@@ -91,18 +104,23 @@
 }
 
 .scan-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   padding-bottom: 21px;
 }
 .process {
   width: 133px;
   height: 183px;
-  margin-bottom: 16px;
+  margin-bottom: 15px;
 
   background: #ffffff;
   opacity: 0.8;
   box-shadow: inset 1px 1px 16px rgba(203, 203, 203, 0.8),
     inset -1px -1px 16px #ffffff;
   border-radius: 50px 0px;
+  margin-left: auto;
+  margin-right: auto;
 
   @media screen and (min-width: 768px) {
     width: 153px;
@@ -121,7 +139,7 @@
   width: 94px;
   height: 82px;
   padding-top: 14px;
-  /*
+
   @media screen and (min-width: 768px) {
     width: 108px;
     height: 95px;
@@ -130,7 +148,7 @@
   @media screen and (min-width: 1440px) {
     width: 177px;
     height: 154px;
-  }*/
+  }
 }
 .process-card {
   display: block;
@@ -144,6 +162,9 @@
   height: 199px;
 
   @media screen and (min-width: 768px) {
+    position: fixed;
+    right: 8px;
+    top: 140px;
     width: 241px;
     height: 172px;
   }
@@ -152,4 +173,10 @@
     width: 515px;
     height: 368px;
   }
+}
+
+.button-scan {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
