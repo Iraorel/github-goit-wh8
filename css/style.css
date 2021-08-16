@@ -180,6 +180,13 @@ ul {
   padding-bottom: 16px;
 }
 
+/*
+.scan-text-alein {
+  @media screen and (min-width: 1440px) {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}*/
 .hero-scan .title {
   font-family: var(--main-font);
   font-style: normal;
