@@ -409,6 +409,7 @@ ul {
   margin-right: auto;
   width: 280px;
   height: 56px;
+  margin-bottom: 76px;
   background: var(--bg-footer-color);
   border-radius: 30.5px;
   box-shadow: -10px -10px 20px #ffffff, 10px 10px 20px rgba(72, 121, 150, 0.1), 5px 5px 10px rgba 72, 121, 150, 0.25, -5px -5px 10px #ffffff;
@@ -416,6 +417,11 @@ ul {
 @media screen and (min-width: 768px) {
   .button-scan {
     width: 277px;
+  }
+}
+@media screen and (min-width: 1444px) {
+  .button-scan {
+    margin-bottom: 100px;
   }
 }
 

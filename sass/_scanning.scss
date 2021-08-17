@@ -297,6 +297,7 @@
   margin-right: auto;
   width: 280px;
   height: 56px;
+  margin-bottom: 76px;
 
   background: var(--bg-footer-color);
   border-radius: 30.5px;
@@ -306,8 +307,11 @@
   @media screen and(min-width: 768px) {
     width: 277px;
   }
-}
 
+  @media screen and(min-width: 1444px) {
+    margin-bottom: 100px;
+  }
+}
 .text-button {
   font-family: var(--main-font);
   font-weight: bold;
