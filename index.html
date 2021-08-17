@@ -40,32 +40,74 @@
                 <h2 class="title scanning">ПРОЦЕС 3D СКАНУВАННЯ</h2>
                 <ul class=" scan__cards list ">
                     <li class="process list">
-
-                        <img class="img-scanning" src="./src/images/scanning/scan_process1-desk.jpg">
+                  <picture>
+                    <source media="(min-width: 1444px)"
+                        srcset="./src/images/scanning/scan_process1-desk.jpg 1x , ./src/images/scanning/scan_process1-desk@2x.jpg 2x">
+                    
+                    <source media="(min-width: 768px)"   srcset="./src/images/scanning/scan_process1-tablet.jpg 1x , ./src/images/scanning/scan_process1-tablet@2x.jpg 2x">
+                    
+                    <source media="(min-width: 280px)"   srcset="./src/images/scanning/scan_process1-mobile.jpg 1x , ./src/images/scanning/scan_process1-mobile@2x.jpg 2x">
+                    <img class="img-scanning" src="./src/images/scanning/scan_process1-desk.jpg" alt="оригінальна деталь">
+                  </picture>
+                        
                       <div class="process__card">
                         <h3 class="title">Підготовка деталі
                         до сканування</h3>
                     </div>
                     </li>
                     <li class="process list">
+                    <picture>
+                        <source media="(min-width: 1444px)"
+                            srcset="./src/images/scanning/scan_process4-desk.jpg 1x , ./src/images/scanning/scan_process4-desk@2x.jpg 2x">
+                        
+                        <source media="(min-width: 768px)"
+                            srcset="./src/images/scanning/scan_process4-tablet.jpg 1x , ./src/images/scanning/scan_process4-tablet@2x.jpg 2x">
+                        
+                        <source media="(min-width: 280px)"
+                            srcset="./src/images/scanning/scan_process4-mobile.jpg 1x , ./src/images/scanning/scan_process4-mobile@2x.jpg 2x">
 
-                        <img class="img-scanning" src="./src/images/scanning/scan_process4-desk.jpg">
+                            <img class="img-scanning" src="./src/images/scanning/scan_process4-desk.jpg" alt="деталь в кольоровій обробці">
+                    </picture>
+                        
                         <div class="process__card">
                         <h3 class="title">Створення 
                             сканів і їх обробка</h3>
                             </div>
                     </li>
                     <li class="process list">
-
-                        <img class="img-scanning" src="./src/images/scanning/scan_process3-desk.jpg">
+                       <picture>
+                            <source media="(min-width: 1444px)"
+                                srcset="./src/images/scanning/scan_process3-desk.jpg 1x , ./src/images/scanning/scan_process3-desk@2x.jpg 2x">
+                            
+                            <source media="(min-width: 768px)"
+                                srcset="./src/images/scanning/scan_process3-tablet.jpg 1x , ./src/images/scanning/scan_process3-tablet@2x.jpg 2x">
+                            
+                            <source media="(min-width: 280px)"
+                                srcset="./src/images/scanning/scan_process3-mobile.jpg 1x , ./src/images/scanning/scan_process3-mobile@2x.jpg 2x">
+                       <img class="img-scanning" src="./src/images/scanning/scan_process3-desk.jpg" alt="перетворення деталі">
+                       </picture>
+                        
                       <div class="process__card">
                         <h3 class="title">Перетворення
                              reverse engineering</h3>
                       </div>
                     </li>
                     <li class="process list" >
+                      <picture>
 
-                        <img class="img-scanning" src="./src/images/scanning/scan_process2-desk.jpg">
+                        <source media="(min-width: 1444px)"
+                            srcset="./src/images/scanning/scan_process2-desk.jpg 1x , ./src/images/scanning/scan_process2-desk@2x.jpg 2x">
+                        
+                        <source media="(min-width: 768px)"
+                            srcset="./src/images/scanning/scan_process2-tablet.jpg 1x , ./src/images/scanning/scan_process2-tablet@2x.jpg 2x">
+                        
+                        <source media="(min-width: 280px)"
+                            srcset="./src/images/scanning/scan_process2-mobile.jpg 1x , ./src/images/scanning/scan_process2-mobile@2x.jpg 2x">
+                         <img class="img-scanning" src="./src/images/scanning/scan_process2-desk.jpg" alt="модель деталі для друку">
+
+                      </picture>
+
+                        
                         <div class="process__card">
                         <h3 class="title">Підготовка 
                             моделі до друку</h3>
@@ -73,7 +115,7 @@
                     </li>
                 </ul>
             </div>
-            <button class=" button button-scan">ЗРОБИТИ ЗАМОВЛЕННЯ</button>
+           <a href="./" class="button-scan text-button" >ЗРОБИТИ ЗАМОВЛЕННЯ</a>
         </div>
     </div>
 </section>

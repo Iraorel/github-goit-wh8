@@ -410,11 +410,23 @@ ul {
   width: 280px;
   height: 56px;
   background: var(--bg-footer-color);
-  box-shadow: -10px -10px 20px #ffffff, 10px 10px 20px rgba(72, 121, 150, 0.1), 5px 5px 10px rgba 72, 121, 150, 0.25, -5px -5px 10px #ffffff;
   border-radius: 30.5px;
+  box-shadow: -10px -10px 20px #ffffff, 10px 10px 20px rgba(72, 121, 150, 0.1), 5px 5px 10px rgba 72, 121, 150, 0.25, -5px -5px 10px #ffffff;
 }
 @media screen and (min-width: 768px) {
   .button-scan {
     width: 277px;
   }
+}
+
+.text-button {
+  font-family: var(--main-font);
+  font-weight: bold;
+  font-style: 16px;
+  line-height: 1.5;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 16px 32px;
+  color: var(--blue-accent-color);
 }/*# sourceMappingURL=style.css.map */
